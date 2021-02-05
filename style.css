@@ -74,10 +74,31 @@ img {
 
 /* MEDIA QUERY */
 
-@media screen and (max-width:480px) {
-  .container {
-    display: block;
-  }
-}
 
-}
+@media screen and (max-width: 480px) {
+  #lezioni .row>.left,
+  #lezioni .row>.right {
+    width: 25%;
+    display: contents;
+  }
+  }
+
+  /* @media screen and (max-width: 480px) {
+    #steps .row>.left,
+    #steps .row>.central,
+    #steps .row>.right {
+      width: 15%;
+      display: contents;
+    }
+    } */
+
+
+  @media screen and (max-width: 480px) {
+    #why .row>.first,
+    #why .row>.second,
+    #why .row>.third {
+      width: 50%;
+      margin-top: 0;
+      display: contents;
+    }
+    }
