@@ -84,9 +84,15 @@ img {
 @media screen and (max-width: 480px) {
   .row {
     width: 450px;
+    margin-top: 0;
   }
   }
 
+@media screen and (max-width: 480px) {
+  #lezioni.container {
+    background-color: #f0efc7;
+  }
+  }
 
 @media screen and (max-width: 480px) {
   #lezioni .row>.left,
@@ -104,6 +110,11 @@ img {
     }
     }
 
+  @media screen and (max-width: 480px) {
+    #why.container {
+      background-color: #f0efc7;
+    }
+    }
 
   @media screen and (max-width: 480px) {
     #why .row>.first,
@@ -114,9 +125,3 @@ img {
       display: contents;
     }
     }
-
-    /* @media screen and (max-width: 480px) {
-      img {
-        text-align: left;
-      }
-      } */
