@@ -79,7 +79,55 @@ img {
   clear: both;
 }
 
-/* MEDIA QUERY */
+/* MEDIA QUERY TABLET*/
+
+@media screen and (max-width: 768px) {
+  .row {
+    width: 450px;
+    margin-top: 0;
+  }
+  }
+
+  @media screen and (max-width: 768px) {
+    #lezioni.container {
+      background-color: #f0efc7;
+    }
+    }
+
+  @media screen and (max-width: 768px) {
+    #lezioni .row>.left,
+    #lezioni .row>.right {
+      width: 25%;
+      display: contents;
+    }
+    }
+
+    @media screen and (max-width: 768px) {
+      #steps .row>.left,
+      #steps .row>.central,
+      #steps .row>.right {
+        display: contents;
+      }
+      }
+
+    @media screen and (max-width: 768px) {
+      #why.container {
+        background-color: #f0efc7;
+      }
+      }
+
+    @media screen and (max-width: 768px) {
+      #why .row>.first,
+      #why .row>.second,
+      #why .row>.third {
+        width: 50%;
+        margin-top: 0;
+        display: contents;
+      }
+      }
+
+
+/* MEDIA QUERY I-PHONE*/
 
 @media screen and (max-width: 480px) {
   .row {
